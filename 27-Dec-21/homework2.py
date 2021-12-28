@@ -8,3 +8,11 @@ After that, every morning I ate half and one of the remaining halves of the prev
 When I wanted to eat again in the morning of the 10th day, I saw that there was only one peach left. 
 Please design a program to find out how many peaches Zhang San picked on the first day.
 """
+
+peaches = 1
+
+for i in range(9):
+    peaches *= 2
+    peaches += 1
+
+print(peaches)
