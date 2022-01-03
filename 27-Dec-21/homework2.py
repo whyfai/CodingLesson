@@ -10,9 +10,14 @@ Please design a program to find out how many peaches Zhang San picked on the fir
 """
 
 peaches = 1
+days = 9
+
+print("Day 10: 1")
 
 for i in range(9):
-    peaches *= 2
     peaches += 1
+    peaches *= 2
+    print(f"Day {days}: {peaches}")
+    days -= 1
 
-print(peaches)
+print(f"Zhang San picked {peaches} peaches on the first day.")

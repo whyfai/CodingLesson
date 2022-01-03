@@ -7,7 +7,11 @@ Calculate the principal amount obtained after 10 years.
 
 principal = 4000
 
+print(f"Principal: {principal}")
+print("Interest: 0.4%")
+
 for i in range(10):
     principal += principal * 0.004
+    print(f"Year {i+1}: {principal} yuan")
 
-print(principal)
+print(f"The principal amount obtained after 10 years is {principal} yuan")
