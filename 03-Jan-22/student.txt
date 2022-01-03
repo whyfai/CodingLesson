@@ -1,0 +1,6 @@
+id,name,age,score
+001,hansen,20,100
+002,michelle,30,95
+003,meow,5,10
+004,daniel,22,75
+005,lol,50,88
