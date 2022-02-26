@@ -1,0 +1,8 @@
+C1, James, 0, 100
+C2, Lily, 0, 30
+M3, Tom, 0.05, 500
+V5, Harry, 0.125, 1000
+C8, Annie, 0, 60
+V10, Sarah, 0.15, 2000
+M11, Wilson, 0.05, 300
+
