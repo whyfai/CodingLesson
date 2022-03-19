@@ -2,6 +2,5 @@ D1, Sydney, 150, 30
 D2, Geelong, 20, 20
 D3, Adelaide, 120, 35
 D4, Brisbane, 250, 40
-
-
-
+D5, Surabaya, 500, 45
+D6, Jakarta, 600, 50

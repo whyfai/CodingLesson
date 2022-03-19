@@ -1,10 +1,9 @@
-James, Sydney, 2, None, 0, 01/09/2020 10:10:00
-Lily, Adelaide, 1, S6, 0, 05/09/2020 14:00:00
-M3, Sydney, 4, Internet, 0.05, 12/10/2020 09:05:00
-Harry, D4, 2, Business, 0.125, 20/12/2020 15:20:00
-Tom, Sydney, 2, Internet, 0.05, 04/01/2021 09:10:00
-C8, Geelong, 1, None, 0, 25/01/2021 20:00:00
-Sarah, Adelaide, 2, StarterPlus, 0.15, 01/03/2021 09:45:00
-Wilson, Sydney, 2, Entertainment, 0.05, 20/05/2021 16:30:00
-
-
+  James   	    Sydney     	    2     	        None        	     01/09/2020 10:10:00      
+   Lily   	   Adelaide    	    1     	         S6         	     05/09/2020 14:00:00      
+    M3    	    Sydney     	    4     	      Internet      	     12/10/2020 09:05:00      
+  Harry   	      D4       	    2     	      Business      	     20/12/2020 15:20:00      
+   Tom    	    Sydney     	    2     	      Internet      	     04/01/2021 09:10:00      
+    C8    	    Geelong    	    1     	        None        	     25/01/2021 20:00:00      
+  Sarah   	   Adelaide    	    2     	    StarterPlus     	     01/03/2021 09:45:00      
+  Wilson  	    Sydney     	    2     	   Entertainment    	     20/05/2021 16:30:00      
+  Faizan  	   Surabaya    	    5     	   Entertainment    	     19/03/2022 12:59:06      

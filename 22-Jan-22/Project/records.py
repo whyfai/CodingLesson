@@ -4,12 +4,16 @@ from VIPmember import VIPMember
 from destination import Destination
 from service import Service
 from bundle import Bundle
+from booking import Booking
+import sys
+
+
 
 class Records():
 
     @classmethod
     def readCustomers(self):
-        file = open("Project/customers.txt")
+        file = open(sys.argv[1])
         for line in file.readlines():
             if line != "\n":
                 data = line.strip().split(", ")
@@ -25,7 +29,7 @@ class Records():
 
     @classmethod
     def readDestinations(self):
-        with open("Project/destinations.txt") as file:
+        with open(sys.argv[2]) as file:
             for line in file.readlines():
                 if line != "\n":
                     data = line.strip().split(", ")
@@ -33,7 +37,7 @@ class Records():
 
     @classmethod
     def readServices(self):
-        with open("Project/services.txt") as file:
+        with open(sys.argv[3]) as file:
             for line in file.readlines():
                 if line != "\n":
                     data = line.strip().split(", ")
@@ -41,6 +45,17 @@ class Records():
                         Service(data[0], data[1], int(data[2]))
                     elif data[0].startswith("B"):
                         Bundle(data[0], data[1], data[2:])
+
+    @classmethod
+    def readBookings(self):
+        with open(sys.argv[4]) as file:
+            for line in file.readlines():
+                try:
+                    if line != "\n":
+                        data = line.strip().split(", ")
+                        Booking(data[0], data[1], int(data[2]), data[3], float(data[4]), data[5])
+                except IndexError:
+                    print("Booking invalid! skipping booking.")
 
     @staticmethod
     def findCustomer(arg):
@@ -100,5 +115,11 @@ class Records():
         for i in Service.services:
             print(i)
         for i in Bundle.bundles:
+            print(i)
+
+    @staticmethod
+    def listBookings():
+        print(f"{'Name':^10s}\t{'Destination':^15s}\t{'Ticket':^10s}\t{'Service':^20s}\t{'Date':^30s}")
+        for i in Booking.bookings:
             print(i)
     

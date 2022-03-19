@@ -7,7 +7,9 @@ class Bundle():
         Bundle.bundles.append(self)
     
     def __repr__(self):
-        services = [f", {service}" for service in self.bundle].join("")
+        services = ""
+        for service in self.bundle:
+            services+=(f", {service}")
         return f"{self.id}, {self.name}{services}"
     
     @property
